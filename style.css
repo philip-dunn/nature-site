@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+html, body {
+  height: 100%;
+  margin: 0;
+  font-family: 'Lato', sans-serif;
+  line-height: 180%;
+  color: #666;
+}
+
+
+nav {
+	background-color: #8ea77e;
+	padding: 15px 15px 5px 40px;
+	color: #fff;
+    opacity: .85
+}
+
+nav a {
+	color: #fff;
+	text-decoration: none;
+	display: block;
+	margin: 0 35px 0 0;
+	padding: 14px 0;
+	border-top: 1px dashed rgba(255, 255, 255, .2);
+}
+
+nav a:first-of-type {
+	border-top: none;
+}
+
+nav label {
+   display: block;
+   background: url(https://i.postimg.cc/28yNL8zN/nav-icon.png) no-repeat 0 1px;
+   background-size: 30px auto;
+   padding: 0 0 10px 30px;
+}
+
+nav label div {
+   margin: 10px 0 0 0;
+   display: none;
+}
+
+nav label input {
+   display: none;
+}
+
+nav label input:checked ~ div {
+  display: block;
+  text-align: center;
+}
+
+
+.parallax-1 {
+   background: url(https://i.postimg.cc/SxjQ4fX8/bridge.jpg);
+   min-height: 100%;
+}
+
+.parallax-2 {
+   background: url(https://i.postimg.cc/GhmdPxxN/guide.jpg);
+   min-height: 60%;
+}
+
+.parallax-3 {
+   background: url(https://i.postimg.cc/g2fpWFbF/trees.jpg);
+   min-height: 40%;
+}
+
+.parallax-4 {
+   background: url(https://i.postimg.cc/1tSZ8Gzv/water.jpg);
+   min-height: 55%;
+}
+
+.parallax-1, .parallax-2, .parallax-3, .parallax-4 {
+   position: relative;
+   opacity: .75;
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+}
+
+.heading {
+   position: absolute;
+   color: #fff;
+   font-size: 550%;
+   top: 38%; 
+   width: 100%; 
+   text-transform: uppercase;
+   letter-spacing: 8px;
+   text-shadow: 0 0 10px #000;
+   text-align: center;
+}
+
+.heading-secondary {
+   position: absolute;
+   top: 45%;
+   width: 100%;
+   color: #fff;
+   font-size: 250%;
+   text-transform: uppercase;
+   letter-spacing: 5px;
+   text-shadow: 0 0 10px #000;
+   text-align: center;
+}
+
+.two-col {
+   float: left;
+   width: 42%;
+   padding: 0 4%;
+   text-align: left;
+   
+}
+
+section {
+   overflow: auto; 
+   padding: 50px 80px;
+   text-align: center;
+}
+
+.dark-bg {
+  background-color: #3c714f;
+  color: #f2f2f2;
+  text-align: center;
+}
+
+footer {
+   background-color: #8ea77e; 
+   color: #fff;
+   position: absolute;
+   width: 100%;
+   text-align: center;
+}
+
+@media (max-width: 768px) {
+	.heading {
+      font-size: 250%;
+      line-height: 1.1;
+   }
+
+	.heading-secondary {
+      font-size:  180%;
+   }
+
+	.parallax-1, .parallax-2, .parallax-3, .parallax-4 {
+      background-attachment: scroll;
+  } 
+
+	.two-col {
+     width: 100%;
+     padding: 0;
+     text-align: center;
+   }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
