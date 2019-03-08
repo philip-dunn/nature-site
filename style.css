@@ -142,10 +142,6 @@ footer {
       font-size:  180%;
    }
 
-	.parallax-1, .parallax-2, .parallax-3, .parallax-4 {
-      background-attachment: scroll;
-  } 
-
 	.two-col {
      width: 100%;
      padding: 0;
